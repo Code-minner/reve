@@ -474,7 +474,7 @@ margin: auto;
 @media (max-width: 500px)  { 
 
     .content_one_sub {
-        height: 85vh;
+        height: 70vh;
     }
 
     .content_one_sub_container img {
